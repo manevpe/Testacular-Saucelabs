@@ -1,0 +1,48 @@
+{
+  "name": "testacular-saucelabs",
+  "description": "Testacular SauceLabs tasks for grunt",
+  "version": "0.0.1",
+  "homepage": "https://github.com/manevpe/testacular-saucelabs",
+  "author": {
+    "name": "Petar Manev",
+    "email": "petar.manev2010@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manevpe/testacular-saucelabs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manevpe/testacular-saucelabs/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/manevpe/testacular-saucelabs/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": {
+    "grunt-saucelabs": "bin/testacular-saucelabs"
+  },
+  "engines": {
+    "node": "0.8.14"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": [
+    "gruntplugin",
+    "saucelabs",
+    "saucelabstunnel"
+  ],
+  "dependencies": {
+    "wd": "~1.2.x"
+  },
+  "readme": "TODO",
+  "readmeFilename": "README.md",
+  "_id": "testacular-saucelabs@0.0.1",
+  "_from": "testacular-saucelabs@"
+}
